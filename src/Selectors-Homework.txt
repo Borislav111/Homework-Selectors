@@ -1,0 +1,50 @@
+Borislav - CSS & XPath selectors for all elements:
+XPath:
+$x("//img[@id='homeIcon']") - Home icon
+$x("//a[@class='nav-link']")  - Home, Login
+$x("//a[@class='nav-link']")[1] - Login
+$x("//a[@class='nav-link']")[0] - Home
+$x("//input[@name='usernameOrEmail']") - Username
+$x("//input[@id='defaultLoginFormPassword']") - Password
+$x("//input[@formcontrolname='rememberMe']") - Remember me
+$x("//button[@id='sign-in-button']") - Button
+$x("//a[text()='Register']") - Register
+
+CSS Selectors:
+$$("#homeIcon") - Home icon
+$$(".nav-link")[0] - Home
+$$(".nav-link")[1] - Login
+$$("input[formcontrolname='usernameOrEmail']") - Username
+$$("#defaultLoginFormPassword") - Password
+$$(".remember-me-button") - Remember me
+$$("button[id='sign-in-button']")  - Button
+$$('a[href="/users/register"]') - Register
+
+
+
+Monica - CSS & XPath selectors for Username and Sign in button:
+$$("input#defaultLoginFormUsername")
+$("button#sign-in-button")
+
+$x("//input[@id='defaultLoginFormUsername']")
+$x("//button[@id='sign-in-button']")
+
+
+
+Evgeniya - CSS & XPath selectors for Login and Username
+$$("#nav-link-login")
+$$("input#defaultLoginFormUsername")
+
+$x("//input[@id='defaultLoginFormUsername']")
+$x("//a[@id='nav-link-login']")
+
+
+
+Victoria - CSS * Xpath selectors for all elements except Register
+$$("#homeIcon")
+$$(".nav-link")
+$$("#nav-link-login")
+$$("#defaultLoginFormUsername")
+$$("#defaultLoginFormPassword")
+$$(".remember-me-button")
+$$("#sign-in-button")
